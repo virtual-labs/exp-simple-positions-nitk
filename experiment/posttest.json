@@ -2,38 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "When is the top view of the line a point?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Parallel to VP and Perpendicular to HP",
+        "b": "Parallel to HP and Perpendicular to VP",
+        "c": "Inclined to both VP and HP",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "When is the top view of the line its true length?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Parallel to VP and HP",
+        "b": "Parallel to VP and Perpendicular to HP",
+        "c": "Parallel to HP and Perpendicular to VP",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A point appears on VP, is the line:",
+      "answers": {
+        "a": "Perpendicular to HP",
+        "b": "Perpendicular to VP",
+        "c": "Parallel to HP and Perpendicular to VP",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A line can have front view and top view as a point",
+      "answers": {
+        "a": "True",
+        "b": "False",
+        
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A line is perpendicular to VP, is",
+      "answers": {
+        "a": "Top view = Actual Length",
+        "b": "Front view = Actual Length",
+        "c": "Top view = Point",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }

@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Representation of True Length of the line:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a',b'",
+        "b": "a,b",
+        "c": "a*,b*",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What notation is used to represent of angle of line (true lentgh) inclined to HP ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "&theta;",
+        "b": "&alpha;",
+        "c": "&phi;",
+        "d": "&beta;"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (true lentgh) inclined to VP ",
+      "answers": {
+        "a": "&theta;",
+        "b": "&phi;",
+        "c": "&alpha;",
+        "d": "&beta;"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (front view) inclined to xy line ",
+      "answers": {
+        "a": "&alpha;",
+        "b": "&beta;",
+        "c": "&delta;",
+        "d": "&theta;"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (true view) inclined to xy line ",
+      "answers": {
+        "a": "&alpha;",
+        "b": "&beta;",
+        "c": "&alpha;",
+        "d": "&theta;"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
