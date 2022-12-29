@@ -56,14 +56,11 @@
       "question": "A line can have front view and top view as a point",
       "answers": {
         "a": "True",
-        "b": "False",
-        
+        "b": "False"
       },
       "explanations": {
         "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "b": ""
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
