@@ -1,38 +1,46 @@
-**THEORY:**
+ ## Introduction
 
+ <br>
+ A straight line can be defined as the shortest distance between two points. The projection of these two points translates on to lines as well.
+<br>
+The position of a straight line is described with respect to the two reference planes. It may be:
+<br>
+1. Parallel to one or both the planes, as shown in Fig. 1.
+<center>
 
-<span class="underline">True Length</span>: Actual length of a given
-line, length of the projection is less than the length of True length.
+![Alt text](images_theory/1.png)
 
-<span class="underline">Theta:</span> It is the angle made by the actual
-line with HP(wrt to XY line)
+Fig. 1 Line Parallel to both the planes.
+</center>
+<br>
+2. Contained by one or both the planes, as shown in Fig. 2. 
+<center>
 
-<span class="underline">Phi:</span> It is the angle made by the actual
-line with VP(wrt to XY line).
+![Alt text](images_theory/2.png)
 
-<span class="underline">Alpha:</span> Apparent angle made by projection
-in the HP with the XY line.
+Fig. 2 Line inclined to VP.
+</center>
+<br>
+3. Perpendicular to one of the planes, as shown in Fig. 3.
+<center>
 
-<span class="underline">Beta:</span> Apparent angle made by projection
-in the VP with the XY line.
+![Alt text](images_theory/3.png)
 
-<span class="underline">Traces of lines:</span> It is defined as the
-point at which the given line if produced, meets, or intersects the
-plane.
+Fig. 3 Line perpendicular to HP
+</center>
+<br>
+4. Inclined to one plane and parallel to the other, as shown in Fig. 4.
+<center>
 
-  - When the line meets HP(or the extended portion to HP), the point at
-    which the lines trace(HT)of the line and denoted by letter
-    H. Similarly to VT and point denoted by V.
+![Alt text](images_theory/4.png)
 
-  - When the line parallel to both HP & VP, there will be no trace on
-    the said planes.
+Fig. 4 Line Parallel to HP inclined to VP
+</center>
+<br>
+5. Inclined to both the planes, as shown in Fig. 5.
+<center>
 
-    When a line is inclined to both HP and VP,  the  apparent  inclination of the line to both the projection planes will be different from the actual inclinations. Similarly the projected length of the lines on to the planes will not be the same as the true length f the line. The following notation will be used for the inclinations and length of the lines for this entire lecture series:
+![Alt text](images_theory/5.png)
 
-    Actual inclinations are θ degrees to HP  and  φ degrees to VP.
-    Apparent Inclinations are a and b to HP and VP respectively.
-    The Apparent Lengths of line AB are ab and a΄b΄ in the top view and front view respectively
-
-![](./images/2.png)
-
-source: https://nptel.ac.in/courses/112/103/112103019/
+Fig. 5 Line inclined to both the planes
+</center>

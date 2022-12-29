@@ -210,6 +210,39 @@ body {
   top: 20px;
 }
 
+.legend {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 420px;
+  width: 300px;
+  box-sizing: border-box;
+}
+ol {
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  top: -290px;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+div ol {
+  visibility: hidden;
+}
+
+.legend-data {
+  font-weight: bold;
+  width: 80px;
+  padding-left: 20px;
+}
+.legend-data:hover {
+  border: 1px dotted black;
+}
+.legend-data:hover + ol {
+  visibility: visible;
+}
+
 @-webkit-keyframes glowing {
   0% {
     background-color: IVORY;
