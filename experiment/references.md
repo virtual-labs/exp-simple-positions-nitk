@@ -6,9 +6,9 @@
   <tr style="background-color: white">
     <td>
     <ol>
-    <li>https://nptel.ac.in/courses/112/103/112103019/</li>
-    <li>http://www.iitg.ac.in/kpmech/ME111-2016/</li>
-    <li>https://egkit.com/2017/04/01/projection-of-lines/</li>
+    <li><a href="https://nptel.ac.in/courses/112/103/112103019/">https://nptel.ac.in/courses/112/103/112103019/</a></li>
+    <li><a href="http://www.iitg.ac.in/kpmech/ME111-2016/">http://www.iitg.ac.in/kpmech/ME111-2016/</a></li>
+    <li><a href="https://egkit.com/2017/04/01/projection-of-lines/">https://egkit.com/2017/04/01/projection-of-lines/</a></li>
     </ol>
    </td>
     <td>Developer : Dr. K V Gangadharan | NITK</br></br>
