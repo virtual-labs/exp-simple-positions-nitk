@@ -198,6 +198,7 @@ function b2() {
   document.getElementById("b22").addEventListener("click", b22);
 }
 function b1() {
+  document.getElementById("b1").style.visibility = "hidden";
   document.getElementById("b1").removeEventListener("click", b1);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
@@ -213,6 +214,7 @@ function b1() {
   document.getElementById("b").addEventListener("click", bb);
 }
 function b22() {
+  document.getElementById("b22").style.visibility = "hidden";
   document.getElementById("b22").removeEventListener("click", b22);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
