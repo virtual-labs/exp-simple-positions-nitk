@@ -1,0 +1,155 @@
+let data = [
+  {
+    step: 1,
+    title: "Draw the axis and name VP & HP",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnAxis",
+        circle: null,
+        circleText: null,
+        func: null,
+      },
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnVPHP",
+        circle: null,
+        circleText: null,
+        func: null,
+      },
+    ],
+  },
+  {
+    step: 2,
+    title: "Draw the line",
+    questions: [
+      {
+        question: "Question",
+        options: ["6", "7", "8", "5"],
+        answer: 2,
+        buttonClass: "btnLine",
+        circle: null,
+        circleText: null,
+        func: null,
+      },
+    ],
+  },
+  {
+    step: 3,
+    title: "Extend a",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnaDash",
+        circle: { x: 280, y: 200 },
+        circleText: "a'",
+        func: a,
+      },
+    ],
+  },
+  {
+    step: 4,
+    title: "Draw the lines with true length and angles given",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btna",
+        circle: { x: 280, y: 295 },
+        circleText: "a",
+        func: b,
+      },
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnbOneDash",
+        circle: { x: 418, y: 70 },
+        circleText: "b1'",
+        func: b11,
+      },
+    ],
+  },
+  {
+    step: 5,
+    title: "Join b1' to locus of a'",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnThetaOne",
+        circle: { x: 428, y: 280 },
+        circleText: "⨀",
+        func: b1,
+      },
+    ],
+  },
+  {
+    step: 6,
+    title: "Taking ab1 as radius draw arc to locus of b",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnB",
+        circle: { x: 375, y: 398 },
+        circleText: "b",
+        func: bb,
+      },
+    ],
+  },
+  {
+    step: 7,
+    title: "Join a and b to get top view",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnBOne",
+        circle: { x: 415, y: 398 },
+        circleText: "b1",
+        func: b2,
+      },
+    ],
+  },
+  {
+    step: 8,
+    title: "Similary join b2 to locus of a",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnThetaTwo",
+        circle: { x: 470, y: 180 },
+        circleText: "⨀",
+        func: b22,
+      },
+    ],
+  },
+  {
+    step: 9,
+    title: "Taking a'b2'as radius draw arc to locus of b'",
+    questions: [
+      {
+        question: "Question",
+        options: ["1", "2", "3", "4"],
+        answer: 0,
+        buttonClass: "btnBDash",
+        circle: { x: 375, y: 70 },
+        circleText: "b'",
+        func: bbb,
+      },
+    ],
+  },
+];
