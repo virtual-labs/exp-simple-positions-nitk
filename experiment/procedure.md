@@ -1,11 +1,21 @@
-1.  .Click on **“Projection of Line”** the following window will open.
-    Click on the **NEXT** button to proceed.
+### Procedure
 
-![](./images/image1.png)
+<div style="text-align:left">
+  Click on the Objective icon <img src="images/objecticon.png" alt="Alt text" style="height:80px; width:80px;">  to view the objective of the simulation. 
 
-2.  .Click on **a’** for next step of construction. Follow the
-    same.(**a’\<\<a\<\<b1’\<\<b1\<\<b\<\<b2\<\<b2’\<\<b’**)
+   ![Alt text](images/objectscreen.png)
+   
+   Click on the Apparatus icon <img src="images/apparatus-icon.png" alt="Alt text" style="height:80px; width:80px;">  to check the tools required for this simulation.
 
-![2](./images/image2.png)
+   ![Alt text](images/appratus_screen.png)
 
-![](./images/image7.png)
+  Click on the Solution icon <img src="images/solutions-icon.png" alt="Alt text" style="height:80px; width:80px;"> to proceed with further simulation steps.
+
+  ![Alt text](images/solution_screen.png)
+
+   Evaluate and choose the correct answer to proceed with further steps, click on the next button <img src="images/nextButtonIcon.png" alt="Alt text" style="height:80px; width:80px;">
+
+
+   After performing the experiment, click on the Reset button <img src="images/resetButton-icon.png" alt="Alt text" style="height:80px; width:80px;"> to restart the experiment.
+
+</div>
