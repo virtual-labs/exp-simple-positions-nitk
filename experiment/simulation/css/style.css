@@ -433,6 +433,9 @@ h1 {
 .btn-next:not(:disabled) {
   animation: highlight 1s infinite;
 }
+.anim {
+  animation: highlight 1s infinite;
+}
 
 .btn-group {
   display: flex;

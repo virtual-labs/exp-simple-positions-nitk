@@ -399,7 +399,10 @@ function checkAnswer(ele, index, answer, buttonClass, circle) {
     optionSelected.classList.add("correct");
     validateAnswer.innerHTML = "Right answer👍";
     answersDiv.appendChild(validateAnswer);
-    if (buttonClass != null) buttonClass.classList.remove("hide");
+    if (buttonClass != null) {
+      buttonClass.classList.add("anim");
+      buttonClass.classList.remove("hide");
+    }
     if (circle) {
       cirX = circle.x;
       cirY = circle.y;
@@ -410,8 +413,11 @@ function checkAnswer(ele, index, answer, buttonClass, circle) {
   } else {
     clearCircle();
     optionSelected.classList.add("wrong");
-    if (buttonClass != null) buttonClass.classList.add("hide");
-    validateAnswer.innerHTML = "Worng answer, please check the options again👎";
+    if (buttonClass != null) {
+      buttonClass.classList.remove("anim");
+      buttonClass.classList.add("hide");
+    }
+    validateAnswer.innerHTML = "Wrong answer, please check the options again👎";
     answersDiv.appendChild(validateAnswer);
   }
 }
