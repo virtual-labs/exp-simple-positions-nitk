@@ -19,7 +19,7 @@ Fig. 1 Line Parallel to both the planes.
 
 ![Alt text](images/2.png)
 
-Fig. 2 Line inclined to VP.
+Fig. 2 Line inclined to HP and parallel to VP.
 
 </center>
 <br>

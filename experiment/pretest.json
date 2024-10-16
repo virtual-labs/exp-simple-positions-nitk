@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Representation of True Length of the line:",
+      "question": "Representation of True Length of the line in front view:",
       "answers": {
         "a": "a',b'",
         "b": "a,b",
@@ -70,7 +70,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "What notation is used to represent of angle of line (true view) inclined to xy line ",
+      "question": "What notation is used to represent the angle of line (top view) inclined to xy line ",
       "answers": {
         "a": "&alpha;",
         "b": "&beta;",
