@@ -24,15 +24,15 @@
         "a": "Parallel to VP and HP",
         "b": "Parallel to VP and Perpendicular to HP",
         "c": "Parallel to HP and Perpendicular to VP",
-        "d": "None of the above"
+        "d": "Both a&c"
       },
       "explanations": {
-        "a": "The right answer is (b). The line does not exist when it is parallel to both VP and HP.",
-        "b": "Correct, The right answer is (b). The top view of the line will be a point if the line is parallel to VP and perpendicular to HP.",
-        "c": "The right answer is (b). If the line is parallel to HP and perpendicular to VP, then the top view of the line get its true length.",
-        "d": "The right answer is (b). The top view of the line gets its true length when it is parallel to both VP and HP."
+        "a": "The right answer is (d). The line exists when it is parallel to both VP and HP.",
+        "b": "The right answer is (d). The top view of the line will be a point if the line is parallel to VP and perpendicular to HP.",
+        "c": "The right answer is (d). If the line is parallel to HP and perpendicular to VP, then the top view of the line get its true length.",
+        "d": "Correct, The right answer is (d)."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "intermediate"
     },
     {
