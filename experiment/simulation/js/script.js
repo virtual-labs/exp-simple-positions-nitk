@@ -71,21 +71,6 @@ let data = [
     questions: [
       {
         question:
-          "If the line AB is inclined to the Vertical Plane and parallel to the Horizontal Plane, then which of the following statements is always CORRECT?",
-        options: [
-          "True Length of AB = Plan Length of AB",
-          "True Length of AB ≠ Plan Length of AB",
-          "True Length of AB > Elevation Length of AB",
-          "True Length of AB = Elevation Length of AB",
-        ],
-        answer: 2,
-        buttonClass: "btna",
-        circle: { x: 280, y: 295 },
-        circleText: "a",
-        func: b,
-      },
-      {
-        question:
           "If the line AB is inclined to H.P., then its plan will______.",
         options: [
           "be perpendicular to XY line",
@@ -317,8 +302,8 @@ function nameAxis() {
 }
 
 function nameVPHP() {
-  ctx.fillText("HP", 69, 243);
-  ctx.fillText("VP", 69, 270);
+  ctx.fillText("VP", 69, 243);
+  ctx.fillText("HP", 69, 270);
   btnVPHP.classList.add("hide");
   nextQuestion();
 }
