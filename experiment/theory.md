@@ -2,6 +2,7 @@
 
  <br>
  A straight line can be defined as the shortest distance between two points. The projection of these two points translates on to lines as well.
+ 
 <br>
 The position of a straight line is described with respect to the two reference planes. It may be:
 <br>
