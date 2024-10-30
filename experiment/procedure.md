@@ -23,7 +23,7 @@
 
 6. After naming the planes, draw the line.
 
-   ![Alt text](images/proc3.png)
+   ![Alt text](images/proc33.png)
 
 7. After drawing the line, click the “Next Step” Button to proceed.
 
