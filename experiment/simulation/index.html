@@ -1,13 +1,162 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <!-- <script defer src="https://code.jquery.com/jquery.min.js"></script> -->
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/ui/1.8.17/jquery-ui.min.js"
+    ></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+    ></script>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="title-div-container">
+      <div class="title-div">
+          <div class="logo-div">
+            <a href="#"><img src="images/logo_nitk.png" alt="Logo" class="logo" /></a>
+          </div>
+          <h1>Projection of Lines</h1>
+        </div>
+      </div>
+    <div class="container">
+      <div class="sidebar">
+        <ul class="tool-menu">
+          <li class="tool-list tool-objective" onclick="displayDiv(this)">
+            <a class="tool-link" title="Objective"
+              >
+              <img src="./images/objective.png" alt="Objective" class="icons">
+            </a>
+            <span>Objective</span>
+          </li>
+          <li class="tool-list tool-apparatus" onclick="displayDiv(this)">
+            <a class="tool-link" title="Apparatus"
+              ><img src="./images/apparatus.png" alt="Objective" class="icons"></a
+              >
+              <span>Apparatus</span>
+          </li>
+          
+          <li class="tool-list tool-practice" onclick="displayDiv(this)">
+            <a class="tool-link" title="Solution"
+              ><img src="./images/solution.png" alt="solution" class="icons"
+              ></a
+              >
+              <span>Solution</span>
+          </li>
+        </ul>
+      </div> 
+      <div class="main">
+        <div class="main-section">
+          <div id="simulation" class="main__task-div">
+            <h3 class="task-title">Objective</h3>
+           
+            <div class="canvas__div">
+              <div class="task-screen objective">
+                <!-- <h3 class="objective__title">Objective</h3> -->
+                <p class="objective__sub">Projections of Lines  
+                </p>
+                <div class="objective__main">To draw projections of Line inclined with both VP and HP
+                  <ol class="objective__list">
+                    <li>True Length (TL) - a'b<sub>1</sub>' and ab<sub>1</sub></li>
+                    <li>Apparent Length (AL) - a'b' and ab</li>
+                    <li>Angle of TL with HP - &theta;</li>
+                    <li>Angle of TL with VP – &phi;</li>
+                       <li>Angle of FV with xy – &alpha;</li>
+                     <li>Angle of TV with xy – &beta;</li>
+                     <li>Position of A - Distances of a & a' from xy</li>
+                     <li>Position of B - Distances of b & b' from xy</li>    
+                 </ol></div>
+                
+              </div>
+              <div class="task-screen apparatus hide">
+                <!-- <h3 class="apparatus__title">Apparatus</h3> -->
+                <div class="apparatus-screen">
+                  <div class="apparatus-tool">
+                    <img src="./images/compass.jpeg" alt="compass" class="tool-img">
+                    <span>Compass</span>
+                  </div>
+                  <div class="apparatus-tool">
+                    <img src="./images/Drafter.jpeg" alt="drafter" class="tool-img">
+                    <span>Drafter</span>
+                  </div>
+                  <div class="apparatus-tool">
+                    <img src="./images/ruler.png" alt="ruler" class="tool-img">
+                    <span>Ruler</span>
+                  </div>
+                </div>
+              </div>
+              <div class="task-screen practice hide">
+                <div class="practice-steps">
+                  <span class="practice-step-no">1</span>
+                  <span class="practice-step-info">Draw the axis and name the VP and HP</span>
+                  <div class="btn-group">
+                    <button class="btn btn-next" title="Next" disabled>></button>
+                    <button class="btn btn-reset" title="Reset">↺</button>
+                  </div>
+                  
+                </div>
+                <div class="quiz-div hide">
+                  <p class="question"></p>
+                  <div class="answers">
+                  </div>
+                </div>
+                <p class="final-statement hide">Well done. The final projection of line ab is drawn in red colour.</p>
+                <div class="practice-steps-additional">
+                  <button class="btn btn-axis hide">Draw Axis</button>
+                  <button class="btn btn-vp-hp hide">Name VP & HP</button>
+                  <button class="btn btn-line hide">Draw Line </button>
+                  <button class="btn btn-a-dash hide">a'  </button>
+                  <button class="btn btn-a hide"> a  </button>
+                  <button class="btn btn-b-one-dash hide"> b1'  </button>
+                  <button class="btn btn-theta-one hide"> ⨀  </button>
+                  <button class="btn btn-b hide"> b  </button>
+                  <button class="btn btn-b-one hide"> b1  </button>
+                  <button class="btn btn-theta-two hide"> ⨀  </button>
+                  <button class="btn btn-b-dash hide"> b'  </button>
+                  
+                 
+                  
+                </div>
+                <canvas id="simscreen" width="750" height="500" class="canvas hide"></canvas>
+                <button class="draw-btn btn-a-1 hide disabled">a'</button>
+                 
+                <button class="btn btn-top hide" title="Move to Top">↑</button>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="main__task-div footer">
+            <p>Copyright © SOLVE The Virtual Lab @ NITK Surathkal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="js/script.js"></script>
+  </body>
 </html>

@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "When is the top view of the line a point?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Parallel to VP and Perpendicular to HP",
+        "b": "Parallel to HP and Perpendicular to VP",
+        "c": "Inclined to both VP and HP",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct, the right answer is (a). The top view of the line will be a point if the line is parallel to VP and perpendicular to HP because the front view projects the projections of VP and the top view projects the projection of HP.",
+        "b": "The right answer is (a). If the line is parallel to HP and perpendicular to VP, then the top view is a straight line.",
+        "c": "The right answer is (a). If the line is inclined to HP and VP, then the top view will be a straight line inclined to both VP and HP.",
+        "d": "The right answer is (a). The top view of the line will be a point if the line is parallel to VP and perpendicular to HP."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "When is the top view of the line its true length?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Parallel to VP and HP",
+        "b": "Parallel to VP and Perpendicular to HP",
+        "c": "Parallel to HP and Perpendicular to VP",
+        "d": "Both a&c"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (d). The line exists when it is parallel to both VP and HP.",
+        "b": "The right answer is (d). The top view of the line will be a point if the line is parallel to VP and perpendicular to HP.",
+        "c": "The right answer is (d). If the line is parallel to HP and perpendicular to VP, then the top view of the line get its true length.",
+        "d": "Correct, The right answer is (d)."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A point appears on VP, is the line:",
+      "answers": {
+        "a": "Perpendicular to HP",
+        "b": "Perpendicular to VP",
+        "c": "Parallel to HP and Perpendicular to VP",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (c). If the line is perpendicular to HP, then the line is projected as a line that appears on VP.",
+        "b": "The right answer is (c). If the line is perpendicular to VP but parallel to HP, then the line is projected as a point that appears on VP.",
+        "c": "Correct, the right answer is (c). If the line is perpendicular to VP and Parallel to HP, then the line is projected as a point that appears on VP.",
+        "d": "The right answer is (c). If the line is perpendicular to VP and Parallel to HP, then the line is projected as a point that appears on VP."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A line can have front view and top view as a point",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "The right answer is (b). A line can have either front view or top view as a point but not both of them. Because the HP and VP are perpendicular to each other.",
+        "b": "Correcr, The right answer is (b). A line can have either front view or top view as a point but not both of them. Because the HP and VP are perpendicular to each other."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A line is perpendicular to VP, is",
+      "answers": {
+        "a": "Top view = Actual Length",
+        "b": "Front view = Actual Length",
+        "c": "Top view = Point",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). If the line is parallel to HP and perpendicular to VP, then the top view of the line gets its true length.",
+        "b": "The right answer is (a). If the line is parallel to VP and perpendicular to HP, then the front view of the line get its true length.",
+        "c": "The right answer is (a). If the line is parallel to VP and perpendicular to HP, then the top view of the line is a point.",
+        "d": "The right answer is (a). If the line is parallel to HP and perpendicular to VP, then the top view of the line gets its true length."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
