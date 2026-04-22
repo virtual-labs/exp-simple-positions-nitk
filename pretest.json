@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Representation of True Length of the line in front view:",
+      "answers": {
+        "a": "a',b'",
+        "b": "a,b",
+        "c": "a*,b*",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). The representation of true length of the line in front view is (a',b').",
+        "b": "The right answer is (a). The representation of true length of the line in top view is (a,b).",
+        "c": "The right answer is (a). The representation of true length of the line in front view is (a',b').",
+        "d": "The right answer is (a). The representation of true length of the line in front line is (a',b')."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (true lentgh) inclined to HP? ",
+      "answers": {
+        "a": "&theta;",
+        "b": "&alpha;",
+        "c": "&phi;",
+        "d": "&beta;"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Angle of projection of a Line kept inclined to HP and Parallel to VP is denoted as &theta;",
+        "b": "The right answer is (a). &alpha; is used to represent of angle of line (front view) inclined to xy line.",
+        "c": "The right answer is (a). Angle of projection of a Line kept inclined to VP and Parallel to HP is denoted as &phi;",
+        "d": "The right answer is (a). &beta; is used to represent of angle of line (true view) inclined to xy line."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (true lentgh) inclined to VP ",
+      "answers": {
+        "a": "&theta;",
+        "b": "&phi;",
+        "c": "&alpha;",
+        "d": "&beta;"
+      },
+      "explanations": {
+        "a": "The right answer is (b). Angle of projection of a Line kept inclined to HP and Parallel to VP is denoted as &theta;",
+        "b": "Correct, the right answer is (b). Angle of projection of a Line kept inclined to VP and Parallel to HP is denoted as &phi;",
+        "c": "The right answer is (b). &alpha; is used to represent of angle of line (front view) inclined to xy line.",
+        "d": "The right answer is (b). &beta; is used to represent of angle of line (true view) inclined to xy line."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What notation is used to represent of angle of line (front view) inclined to xy line ",
+      "answers": {
+        "a": "&alpha;",
+        "b": "&beta;",
+        "c": "&delta;",
+        "d": "&theta;"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). &alpha; is used to represent of angle of line (front view) inclined to xy line.",
+        "b": "The right answer is (a). &beta; is used to represent of angle of line (true view) inclined to xy line.",
+        "c": "The right answer is (a). &delta; is used as flagnotes. Flagnotes or flag notes are notes that apply only where a flagged callout points, such as to particular surfaces, features, or part numbers.",
+        "d": "The right answer is (a).  Angle of projection of a Line kept inclined to HP and Parallel to VP is denoted as &theta;"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What notation is used to represent the angle of line (top view) inclined to xy line ",
+      "answers": {
+        "a": "&alpha;",
+        "b": "&beta;",
+        "c": "&delta;",
+        "d": "&theta;"
+      },
+      "explanations": {
+        "a": "The right answer is (b). &alpha; is used to represent of angle of line (front view) inclined to xy line.",
+        "b": "Correct, the right answer is (b). &beta; is used to represent of angle of line (true view) inclined to xy line.",
+        "c": "The right answer is (b). &delta; is used as flagnotes. Flagnotes or flag notes are notes that apply only where a flagged callout points, such as to particular surfaces, features, or part numbers.",
+        "d": "The right answer is (b). Angle of projection of a Line kept inclined to HP and Parallel to VP is denoted as &theta;"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}
